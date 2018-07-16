@@ -13,7 +13,7 @@ class Ideone
 		for(i=1;i<=n;i++)
 		{           
 		
-			for(j=i;j<=n-1;j++)
+			for(j=i;j<=n;j++)
 			{
 				System.out.print("\t");
 				
