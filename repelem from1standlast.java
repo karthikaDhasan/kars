@@ -11,8 +11,15 @@ class Ideone
 	{
 		// your code goes here
 		int[] a={10,20,10,40,40,20};
-		int t=0;
-		int s=0;
+		int t=0,s=0;
+		/*Scanner s=new Scanner(System.in);
+	int a[]=new int[s.nextInt()];
+	int c=0;
+	for(int i=0;i<a.length;i++)
+	{
+	   a[i]=s.nextInt();
+	   System.out.println(a[i]);
+	}*/
 		int[] b=new int[5];
 		for(int i=0;i<a.length;i++)
 		{
