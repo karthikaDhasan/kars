@@ -54,6 +54,34 @@ System.out.println("from last index:" +b[t-1]);
 }
 
 
+Another method: using set and arraylist
+int[] a={10,20,10,40,40,20};
+		Set s=new LinkedHashSet();
+		for(int i=0;i<a.length;i++)
+		{
+			int c=0;
+			for(int j=i+1;j<a.length;j++)
+			{
+				if(a[i]==a[j])
+				{
+				c++;	
+				}
+			}
+			if(c>0)
+			{
+			    s.add(a[i]);
+			  	
+			}
+			
+		}
+		ArrayList a1=new ArrayList(s);
+		
+   
+   System.out.println("from last index:" +a1.get(a1.size()-1));
+    
+    System.out.println("from first index:" +a1.get(0));
+
+
 OUTPUT:
 10
 20
