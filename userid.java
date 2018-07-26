@@ -46,6 +46,7 @@ public class pgm {
     				//System.out.println(b);
     				bn=fn;
     				sn=ln;
+				break;
     			}
     			else
     			{
@@ -53,7 +54,7 @@ public class pgm {
     				bn=ln;
     			}
     		}//if
-    		break;
+    		
         	}
         	
         }//else
@@ -88,12 +89,13 @@ public class pgm {
 }
 
 
-OUTPUT:
+INPUT:
 RAJIV
 Roy
 624003
 2
-//smaller name:Roy
+OUTPUT:
+smaller name:Roy
 larger name:R
 Index L-R:2
 Index R-L:0
