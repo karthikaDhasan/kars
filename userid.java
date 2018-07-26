@@ -88,7 +88,7 @@ public class pgm {
 
 }
 
-
+EXAMPLE1:
 INPUT:
 RAJIV
 Roy
@@ -102,3 +102,16 @@ Index R-L:0
 user-id: RRoy20
 user-id()after toggle:
 rrOY20
+
+EXAMPLE 2:
+kara
+karb
+344564
+2
+smaller name:kara
+larger name:k
+Index L-R:4
+Index R-L:6
+user-id: kkara46
+user-id()after toggle:
+KKARA46
