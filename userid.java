@@ -34,7 +34,7 @@ public class pgm {
         }//if
         else
         {
-        	for(i=0;i<fn.length();i++)
+        	/*for(i=0;i<fn.length();i++)
         	{
         	int a=fn.charAt(i);
     		int b=ln.charAt(i);
@@ -55,7 +55,18 @@ public class pgm {
     			}
     		}//if
     		
-        	}
+        	}*/
+		//or
+		if(fn.compareTo(ln)>0)
+		{
+			sn=ln;
+			bn=fn;
+		}
+		else
+		{
+			sn=fn;
+			bn=ln;
+		}
         	
         }//else
         System.out.println("smaller name:"+sn);
