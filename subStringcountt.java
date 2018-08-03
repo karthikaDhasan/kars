@@ -12,6 +12,7 @@ public class str {
 				{
 					d=d+s.charAt(j);
 					c++;
+				 //OR d=s.subString(i,j);
 					if(c>1)
 					{
 						if(!s.equals( d))
