@@ -29,8 +29,9 @@ public class str {
 		System.out.print(al);
     for(i=1;i<=t;i++)
     {
-    	String g=al.get(i);
-    	if(g.contains("c"))
+    	/*String g=al.get(i);
+    	if(g.contains("c"))*/
+	    if(al.get(i).contains("c"))
     	{
     		t1++;
     		System.out.print(t1);
